@@ -1,22 +1,29 @@
-# changes file
-*.changes
-
-# system image
 *.image
+*.changes
+*.log
+*.sources
+*.dmp
+*.zip
+.DS_Store
 
-# Pharo Smalltalk Debug log file
-PharoDebug.log
+methodProperties.json
+**/monticello.meta/version
 
-# Squeak Smalltalk Debug log file
-SqueakDebug.log
+CONFIG
 
-# Monticello package cache
-/package-cache
+pharo
+pharo-ui
+pharo-vm/
 
-# playground cache
-/play-cache
-/play-stash
 
-# Metacello-github cache
-/github-cache
-github-*.zip
+pharo-local/
+epicea-sessions/
+github-cache/
+package-cache/
+iceberg-cache/
+play-cache/
+
+bootstrap-cache/
+
+github--*.zip
+
