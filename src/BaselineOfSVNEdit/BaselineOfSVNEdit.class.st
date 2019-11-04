@@ -11,6 +11,7 @@ BaselineOfSVNEdit >> baseline: spec [
 		spec 
 			package: 'SVN-Edit';
 			package: 'SVN-Edit-Menu';
+			package: 'SVN-Edit-Tests';
 			package: 'Listbox-Menu'.
 		spec 
 			group: 'Core' with: #('SVN-Edit' 'SVN-Edit-Menu' 'Listbox-Menu');
