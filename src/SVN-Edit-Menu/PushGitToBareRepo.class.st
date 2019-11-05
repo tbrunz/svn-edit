@@ -37,7 +37,7 @@ PushGitToBareRepo class >> initialize [
 PushGitToBareRepo >> performSelectedOperation [
 	"Push a Git working repository to a new bare Git repo on the host disk."	
 			
-	UIManager default alert: 'I''m going to push a Git repository on the host disk to a new bare Git repo, which I will create first.
+	UIManager default message: 'I''m going to push a Git repository on the host disk to a new bare Git repo, which I will create first.
 	
 I''ll need to ask you for the path to the Git repository, and a path for the new bare repository.'
 ]

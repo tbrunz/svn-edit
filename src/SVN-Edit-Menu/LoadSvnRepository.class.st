@@ -36,7 +36,7 @@ LoadSvnRepository class >> initialize [
 LoadSvnRepository >> performSelectedOperation [
 	"Load an SVN repository (new or existing) on the host with a dump file."	
 			
-	UIManager default alert: 'I''m going to load an SVN repository on the host disk with a dump file.
+	UIManager default message: 'I''m going to load an SVN repository on the host disk with a dump file.
 	
 I''ll need to ask you for the path to the dump file, and a directory path to the SVN repo directory.
 

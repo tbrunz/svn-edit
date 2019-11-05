@@ -37,7 +37,7 @@ OpenSvnDumpFile class >> initialize [
 OpenSvnDumpFile >> performSelectedOperation [
 	"Open an SVN dump file located on the host disk."	
 			
-	UIManager default alert: 'I''m going to open an SVN dump file on the host disk, and stream in its metadata.
+	UIManager default message: 'I''m going to open an SVN dump file on the host disk, and stream in its metadata.
 	
 I''ll need to ask you for the path to the dump file.'
 ]

@@ -36,7 +36,7 @@ DumpSvnRepository class >> initialize [
 DumpSvnRepository >> performSelectedOperation [
 	"Dump an SVN repository on the host to make a full dump file."	
 			
-	UIManager default alert: 'I''m going to dump an SVN repository on the host disk to make a (full) dump file.
+	UIManager default message: 'I''m going to dump an SVN repository on the host disk to make a (full) dump file.
 	
 I''ll need to ask you for the path to the SVN repo directory, and a path for the dump file.' 
 ]

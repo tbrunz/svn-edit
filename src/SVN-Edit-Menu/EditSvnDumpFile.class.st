@@ -36,7 +36,7 @@ EditSvnDumpFile class >> initialize [
 EditSvnDumpFile >> performSelectedOperation [
 	"Edit the metadata of an SVN dump file looated on the host."	
 			
-	UIManager default alert: 'I''m going to help you edit the metadata of an SVN dump file on the host disk.
+	UIManager default message: 'I''m going to help you edit the metadata of an SVN dump file on the host disk.
 	
 You will have to have already selected and opened a dump file.' 
 ]

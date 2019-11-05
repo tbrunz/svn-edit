@@ -37,7 +37,7 @@ CloneGitFromSvn class >> initialize [
 CloneGitFromSvn >> performSelectedOperation [
 	"Clone an SVN repository on the host to make a new Git working repository."	
 			
-	UIManager default alert: 'I''m going to clone an SVN repository on the host disk to make a new Git working directory.
+	UIManager default message: 'I''m going to clone an SVN repository on the host disk to make a new Git working directory.
 	
 I''ll need to ask you for the path to the SVN repo directory, and a path for the Git repo directory.' 
 ]

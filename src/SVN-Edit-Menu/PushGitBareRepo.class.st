@@ -37,7 +37,7 @@ PushGitBareRepo class >> initialize [
 PushGitBareRepo >> performSelectedOperation [
 	"Push a Git bare repository to a remote server (GitHub, GitLab, BitBucket)."	
 			
-	UIManager default alert: 'I''m going to push a Git bare repository on the host disk to a remote server.
+	UIManager default message: 'I''m going to push a Git bare repository on the host disk to a remote server.
 	
 I''ll need to ask you for the path to the Git repository, and the URL of the account on the server.'
 ]

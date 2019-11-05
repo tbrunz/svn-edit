@@ -37,7 +37,7 @@ SaveSvnDumpFile class >> initialize [
 SaveSvnDumpFile >> performSelectedOperation [
 	"Save the opened SVN dump file metadata to a new dump file located on the host disk."	
 			
-	UIManager default alert: 'I''m going to save the current SVN repo metadata to a new dump file on the host disk.
+	UIManager default message: 'I''m going to save the current SVN repo metadata to a new dump file on the host disk.
 	
 I will merge in (only) the referenced text sections from the source dump file on the host disk as I do this.
 	

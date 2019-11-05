@@ -36,7 +36,7 @@ ExportToServer class >> initialize [
 ExportToServer >> performSelectedOperation [
 	"Export an SVN dump file on the host to a remote server."	
 			
-	UIManager default alert: 'I''m going to transfer an SVN dump file on the host disk to a remote server.
+	UIManager default message: 'I''m going to transfer an SVN dump file on the host disk to a remote server.
 	
 I''ll need to ask you for the URL to the destination on the server.' 
 ]

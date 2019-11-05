@@ -36,7 +36,7 @@ ImportFromServer class >> initialize [
 ImportFromServer >> performSelectedOperation [
 	"Import an SVN dump file from a remote server."	
 			
-	UIManager default alert: 'I''m going to transfer an SVN dump file from a remote server to the host disk.
+	UIManager default message: 'I''m going to transfer an SVN dump file from a remote server to the host disk.
 	
 I''ll need to ask you for the URL of the dump file on the server, and a destination directory path on the host.' 
 ]

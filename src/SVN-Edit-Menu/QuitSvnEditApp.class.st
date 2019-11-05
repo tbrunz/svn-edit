@@ -36,7 +36,7 @@ QuitSvnEditApp class >> initialize [
 QuitSvnEditApp >> performSelectedOperation [
 	"Quit the app, offering to save any modified, unsaved SVN dump file metadata."	
 			
-	UIManager default alert: 'I''m going to quit the application now...
+	UIManager default message: 'I''m going to quit the application now...
 	
 I will detect if there''s any modified, unsaved metadata and offer to save it first.' .
 
